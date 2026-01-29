@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "EKT"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "d05bab3f-f076-4a82-8e63-7769c7b76281"
+  }
+}
