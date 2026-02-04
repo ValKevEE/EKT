@@ -7,7 +7,34 @@
         "x": 0,
         "y": 0
       },
-      "nodes": [],
+      "nodes": [
+        {
+          "location": {
+            "x": 339,
+            "y": 0
+          },
+          "nodeIndex": "ensembl_assembly",
+          "nodeLineageTag": "dc84e80a-44fd-41a0-8e74-7130a41661a7",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 50,
+            "y": -48
+          },
+          "nodeIndex": "rnc_locus",
+          "nodeLineageTag": "10b287d0-3e1d-4006-b042-0928d82715bd",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 1
+        }
+      ],
       "name": "All tables",
       "zoomValue": 100,
       "pinKeyFieldsToTop": false,

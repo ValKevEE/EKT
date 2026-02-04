@@ -1,0 +1,144 @@
+table ensembl_assembly
+	lineageTag: 646b5094-9c87-4992-b4f7-31548236fac0
+
+	column assembly_id
+		dataType: string
+		lineageTag: c3d51fe0-adf8-47d4-8a61-b3d9d1793a9c
+		summarizeBy: none
+		sourceColumn: assembly_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column assembly_full_name
+		dataType: string
+		lineageTag: 4b6d130b-0312-4de6-bb76-91bfb1019142
+		summarizeBy: none
+		sourceColumn: assembly_full_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column gca_accession
+		dataType: string
+		lineageTag: ea240a5c-11e2-4955-849b-0199875ab893
+		summarizeBy: none
+		sourceColumn: gca_accession
+
+		annotation SummarizationSetBy = Automatic
+
+	column assembly_ucsc
+		dataType: string
+		lineageTag: 51a8b986-24a4-4596-bb5e-5ae863874e3c
+		summarizeBy: none
+		sourceColumn: assembly_ucsc
+
+		annotation SummarizationSetBy = Automatic
+
+	column common_name
+		dataType: string
+		lineageTag: b753a9c9-6e1e-4ee1-809e-f6f2d937e23e
+		summarizeBy: none
+		sourceColumn: common_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column taxid
+		dataType: int64
+		formatString: 0
+		lineageTag: ccd20854-b7cc-416c-8e4a-4ecd72021abe
+		summarizeBy: none
+		sourceColumn: taxid
+
+		annotation SummarizationSetBy = Automatic
+
+	column ensembl_url
+		dataType: string
+		lineageTag: ec931f4a-1ea9-4d9c-800f-3b66285bcc6b
+		summarizeBy: none
+		sourceColumn: ensembl_url
+
+		annotation SummarizationSetBy = Automatic
+
+	column division
+		dataType: string
+		lineageTag: 069b67e8-ff1b-4e0e-8ddf-f55094d9e999
+		summarizeBy: none
+		sourceColumn: division
+
+		annotation SummarizationSetBy = Automatic
+
+	column blat_mapping
+		dataType: int64
+		formatString: 0
+		lineageTag: 35426353-c64d-46f2-945e-1d2c6ff9a32e
+		summarizeBy: none
+		sourceColumn: blat_mapping
+
+		annotation SummarizationSetBy = Automatic
+
+	column example_chromosome
+		dataType: string
+		lineageTag: 67cf7938-5f35-4d6b-803b-ec631718d970
+		summarizeBy: none
+		sourceColumn: example_chromosome
+
+		annotation SummarizationSetBy = Automatic
+
+	column example_end
+		dataType: int64
+		formatString: 0
+		lineageTag: 35b17bbd-24e6-490b-ba38-05cba0ff6bbb
+		summarizeBy: none
+		sourceColumn: example_end
+
+		annotation SummarizationSetBy = Automatic
+
+	column example_start
+		dataType: int64
+		formatString: 0
+		lineageTag: 7ee44fdc-8b49-450f-b003-78dd0e3ec14f
+		summarizeBy: none
+		sourceColumn: example_start
+
+		annotation SummarizationSetBy = Automatic
+
+	column subdomain
+		dataType: string
+		lineageTag: 057cd186-6db5-4793-8042-5d8a197e3ec9
+		summarizeBy: none
+		sourceColumn: subdomain
+
+		annotation SummarizationSetBy = Automatic
+
+	column selected_genome
+		dataType: string
+		lineageTag: dbd56a04-d248-46b0-b80b-1e12336ae02e
+		summarizeBy: none
+		sourceColumn: selected_genome
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'assembly_id - Copy'
+		dataType: string
+		lineageTag: 4e6ba143-17ef-4793-83ac-0cac1bfd8d0a
+		summarizeBy: none
+		sourceColumn: assembly_id - Copy
+
+		annotation SummarizationSetBy = Automatic
+
+	partition ensembl_assembly = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("dsn=PostgreSQL35W", [HierarchicalNavigation=true]),
+				    pfmegrnargs_Database = Source{[Name="pfmegrnargs",Kind="Database"]}[Data],
+				    rnacen_Schema = pfmegrnargs_Database{[Name="rnacen",Kind="Schema"]}[Data],
+				    ensembl_assembly_Table = rnacen_Schema{[Name="ensembl_assembly",Kind="Table"]}[Data],
+				    #"Duplicated Column" = Table.DuplicateColumn(ensembl_assembly_Table, "assembly_id", "assembly_id - Copy"),
+				    #"Replaced Value" = Table.ReplaceValue(#"Duplicated Column","V1.0","V_1.0",Replacer.ReplaceText,{"assembly_id - Copy"})
+				in
+				    #"Replaced Value"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,111 @@
+table rnc_locus
+	lineageTag: 77c053bc-db48-44aa-8835-b43fe2dc771f
+
+	column id
+		dataType: int64
+		formatString: 0
+		lineageTag: 932fbaba-77f0-44b4-8b89-8c10d9369194
+		summarizeBy: sum
+		sourceColumn: id
+
+		annotation SummarizationSetBy = Automatic
+
+	column assembly_id
+		dataType: string
+		lineageTag: 7b04c025-810c-43e4-8b6a-f82958f7f981
+		summarizeBy: none
+		sourceColumn: assembly_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column locus_name
+		dataType: string
+		lineageTag: 3fbe09dc-0657-42d2-94d7-ff2ca8f00599
+		summarizeBy: none
+		sourceColumn: locus_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column public_locus_name
+		dataType: string
+		lineageTag: 1b60a9f6-3c80-41ca-8b89-3c2c123d3fc6
+		summarizeBy: none
+		sourceColumn: public_locus_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column chromosome
+		dataType: string
+		lineageTag: cc0807f8-ae78-4062-8efb-692c38a80cdc
+		summarizeBy: none
+		sourceColumn: chromosome
+
+		annotation SummarizationSetBy = Automatic
+
+	column strand
+		dataType: string
+		lineageTag: 3caf4d79-2556-4bf8-a583-b1f8ed34672c
+		summarizeBy: none
+		sourceColumn: strand
+
+		annotation SummarizationSetBy = Automatic
+
+	column locus_start
+		dataType: int64
+		formatString: 0
+		lineageTag: 7ce3614d-00fe-4b05-bb9b-25e705268841
+		summarizeBy: sum
+		sourceColumn: locus_start
+
+		annotation SummarizationSetBy = Automatic
+
+	column locus_stop
+		dataType: int64
+		formatString: 0
+		lineageTag: 92eea098-deeb-4a91-8d19-4d1480e5b929
+		summarizeBy: sum
+		sourceColumn: locus_stop
+
+		annotation SummarizationSetBy = Automatic
+
+	column member_count
+		dataType: int64
+		formatString: 0
+		lineageTag: 9be98b2a-158a-4174-94d5-9e07c07e2587
+		summarizeBy: sum
+		sourceColumn: member_count
+
+		annotation SummarizationSetBy = Automatic
+
+	column Length = rnc_locus[locus_stop] - rnc_locus[locus_start]
+		formatString: 0
+		lineageTag: a01b6c20-7648-4dcf-93f5-3a976d876a61
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'assembly_id - Copy'
+		dataType: string
+		lineageTag: 4c7b88f0-8219-49a8-8416-74d290b6fe70
+		summarizeBy: none
+		sourceColumn: assembly_id - Copy
+
+		annotation SummarizationSetBy = Automatic
+
+	partition rnc_locus = m
+		mode: import
+		source =
+				let
+				    Source = Odbc.DataSource("dsn=PostgreSQL35W", [HierarchicalNavigation=true]),
+				    pfmegrnargs_Database = Source{[Name="pfmegrnargs",Kind="Database"]}[Data],
+				    rnacen_Schema = pfmegrnargs_Database{[Name="rnacen",Kind="Schema"]}[Data],
+				    rnc_locus_Table = rnacen_Schema{[Name="rnc_locus",Kind="Table"]}[Data],
+				    #"Duplicated Column" = Table.DuplicateColumn(rnc_locus_Table, "assembly_id", "assembly_id - Copy"),
+				    #"Replaced Value" = Table.ReplaceValue(#"Duplicated Column","V1.0","V_1.0",Replacer.ReplaceText,{"assembly_id - Copy"})
+				in
+				    #"Replaced Value"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

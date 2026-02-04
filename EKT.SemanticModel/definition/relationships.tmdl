@@ -1,0 +1,4 @@
+relationship AutoDetected_1c092b22-19f2-42e3-832c-7fb51becea04
+	fromColumn: rnc_locus.'assembly_id - Copy'
+	toColumn: ensembl_assembly.'assembly_id - Copy'
+

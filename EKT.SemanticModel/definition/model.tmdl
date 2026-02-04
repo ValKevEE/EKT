@@ -10,5 +10,10 @@ annotation __PBI_TimeIntelligenceEnabled = 1
 
 annotation PBI_ProTooling = ["DevMode"]
 
+annotation PBI_QueryOrder = ["ensembl_assembly","rnc_locus"]
+
+ref table ensembl_assembly
+ref table rnc_locus
+
 ref cultureInfo en-US
 
