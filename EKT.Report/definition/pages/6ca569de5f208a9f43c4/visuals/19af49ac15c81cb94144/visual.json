@@ -1,0 +1,160 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "19af49ac15c81cb94144",
+  "position": {
+    "x": 1223.5409148214758,
+    "y": 635.60567003713027,
+    "z": 13000,
+    "height": 346.93476156193361,
+    "width": 246.297197139388,
+    "tabOrder": 13000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ensembl_assembly"
+                    }
+                  },
+                  "Property": "assembly_full_name"
+                }
+              },
+              "queryRef": "ensembl_assembly.assembly_full_name",
+              "nativeQueryRef": "assembly_full_name"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "ensembl_assembly"
+                        }
+                      },
+                      "Property": "assembly_id - Copy"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(ensembl_assembly.assembly_id - Copy)",
+              "nativeQueryRef": "Assemblies",
+              "displayName": "Assemblies"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "ensembl_assembly"
+                      }
+                    },
+                    "Property": "assembly_id - Copy"
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "83.97460822642206D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CountNonNull(ensembl_assembly.assembly_id - Copy)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "139.15410989763876D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "ensembl_assembly.assembly_full_name"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'RAW data ensembl_assembly'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

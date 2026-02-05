@@ -1,0 +1,160 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "b5c7f45a637d7c3cbf93",
+  "position": {
+    "x": 681.951916810671,
+    "y": 635.60567003713027,
+    "z": 7000,
+    "height": 348.25894004117765,
+    "width": 251.59391105636408,
+    "tabOrder": 7000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "ensembl_assembly"
+                    }
+                  },
+                  "Property": "example_chromosome"
+                }
+              },
+              "queryRef": "ensembl_assembly.example_chromosome",
+              "nativeQueryRef": "example_chromosome"
+            },
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "ensembl_assembly"
+                        }
+                      },
+                      "Property": "assembly_id - Copy"
+                    }
+                  },
+                  "Function": 5
+                }
+              },
+              "queryRef": "CountNonNull(ensembl_assembly.assembly_id - Copy)",
+              "nativeQueryRef": "Assemblies",
+              "displayName": "Assemblies"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "ensembl_assembly"
+                      }
+                    },
+                    "Property": "assembly_id - Copy"
+                  }
+                },
+                "Function": 5
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "columnHeaders": [
+        {
+          "properties": {
+            "autoSizeColumnWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "83.97460822642206D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "CountNonNull(ensembl_assembly.assembly_id - Copy)"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "148.19357553519023D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "ensembl_assembly.example_chromosome"
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'RAW data ensembl_assembly'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

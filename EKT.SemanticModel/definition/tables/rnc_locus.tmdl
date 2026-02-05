@@ -1,6 +1,29 @@
 table rnc_locus
 	lineageTag: 77c053bc-db48-44aa-8835-b43fe2dc771f
 
+	measure 'Loci total (absolutely all)' = ```
+			
+			CALCULATE(
+			    COUNTROWS(rnc_locus),
+			    REMOVEFILTERS()
+			)
+			
+			```
+		formatString: 0
+		lineageTag: 043d8505-5b08-4ee3-9f49-f69d1312a4c6
+
+	measure 'Loci (with filters)' = ```
+			
+			COUNTROWS(rnc_locus)
+			
+			```
+		formatString: 0
+		lineageTag: b83d6771-dfa7-4001-805b-1826593d7f8a
+
+	measure 'Loci share (filtered)' = DIVIDE(rnc_locus[Loci (with filters)],rnc_locus[Loci total (absolutely all)])
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 581b575c-04a4-4212-a3d3-db38c2d80788
+
 	column id
 		dataType: int64
 		formatString: 0

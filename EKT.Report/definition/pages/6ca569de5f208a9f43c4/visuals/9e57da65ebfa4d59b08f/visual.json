@@ -1,0 +1,292 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "9e57da65ebfa4d59b08f",
+  "position": {
+    "x": 16.666666666666668,
+    "y": 20,
+    "z": 0,
+    "height": 505.55555555555554,
+    "width": 545.55555555555554,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "1.Что такое Ensembl?",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ensembl",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " — это международный научный проект и платформа для "
+                  },
+                  {
+                    "value": "аннотации геномов",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Проще:"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Ensembl — это база знаний, где хранятся и поддерживаются "
+                  },
+                  {
+                    "value": "структуры геномов",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", гены, РНК и их координаты для разных организмов."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Что именно делает Ensembl"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "собирает "
+                  },
+                  {
+                    "value": "геномные сборки",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " (genome assemblies)"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "описывает:"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "гены"
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "транскрипты"
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "кодирующие и некодирующие РНК"
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "даёт единый формат координат и идентификаторов"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Почему Ensembl важен"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "ensembl_assembly — это "
+                  },
+                  {
+                    "value": "официальные сборки",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", используемые Ensembl"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "rnc_locus содержит координаты РНК "
+                  },
+                  {
+                    "value": "привязанные к этим сборкам",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "связь между таблицами отражает реальную биологическую модель:"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "сборка генома → координаты РНК в этой сборке"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Короткий пример",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "У человека:",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "разные версии генома (например, обновления)",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "координаты РНК могут меняться между версиями",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " Ensembl хранит это аккуратно и позволяет сравнивать.",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

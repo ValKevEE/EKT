@@ -1,0 +1,140 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "f6f42c71de4637416d91",
+  "position": {
+    "x": 773.72735981966753,
+    "y": 381.323865877712,
+    "z": 7005,
+    "height": 338.85195829811215,
+    "width": 466.26768103691182,
+    "tabOrder": 7004
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rnc_locus"
+                    }
+                  },
+                  "Property": "id"
+                }
+              },
+              "queryRef": "Sum(rnc_locus.id)",
+              "nativeQueryRef": "id"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rnc_locus"
+                    }
+                  },
+                  "Property": "locus_start"
+                }
+              },
+              "queryRef": "Sum(rnc_locus.locus_start)",
+              "nativeQueryRef": "locus_start"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rnc_locus"
+                    }
+                  },
+                  "Property": "locus_stop"
+                }
+              },
+              "queryRef": "Sum(rnc_locus.locus_stop)",
+              "nativeQueryRef": "locus_stop"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rnc_locus"
+                    }
+                  },
+                  "Property": "Length"
+                }
+              },
+              "queryRef": "Sum(rnc_locus.Length)",
+              "nativeQueryRef": "Length"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rnc_locus"
+                    }
+                  },
+                  "Property": "chromosome"
+                }
+              },
+              "queryRef": "rnc_locus.chromosome",
+              "nativeQueryRef": "chromosome"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "rnc_locus"
+                    }
+                  },
+                  "Property": "strand"
+                }
+              },
+              "queryRef": "rnc_locus.strand",
+              "nativeQueryRef": "strand"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "rnc_locus"
+                  }
+                },
+                "Property": "Length"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "visualContainerObjects": {
+      "stylePreset": [
+        {
+          "properties": {
+            "name": {
+              "expr": {
+                "Literal": {
+                  "Value": "'None'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

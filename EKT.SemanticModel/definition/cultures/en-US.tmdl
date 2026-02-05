@@ -2,8 +2,3758 @@ cultureInfo en-US
 
 	linguisticMetadata =
 			{
-			  "Version": "1.0.0",
-			  "Language": "en-US"
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "ensembl_assembly": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ensembl assembly": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ensembl_assembly": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ensembl assemblage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ensembl association": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ensembl congregation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "ensembl meeting": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ensembl get-together": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ensembl gathering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ensembl muster": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ensembl congress": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ensembl rally": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "ensembl legislature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.assembly_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "assembly_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assembly id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assembly_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "assembly identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assembly identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assembly identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assembly credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.assembly_full_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "assembly_full_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assembly full name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assembly_full_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "assembly full nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "assembly full title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "assembly full label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "assembly full tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "assembly full surname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.597
+			          }
+			        },
+			        {
+			          "assembly complete name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "assembly entire name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "assembly whole name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "assembly full given name": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.484
+			          }
+			        },
+			        {
+			          "Assembly": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.gca_accession": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "gca_accession"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gca accession": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gca_accession": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "gca agreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gca concurrence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gca compliance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gca consent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gca accord": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gca assent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "gca attainment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "gca succession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "gca appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.assembly_ucsc": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "assembly_ucsc"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assembly ucsc": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assembly_ucsc": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.common_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "common_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "common name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "common_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "common": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "common nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "common title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "common label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "common tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "joint": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "public": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "collective": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "corporate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "usual": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "familiar": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.taxid": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "taxid"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taxid": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.ensembl_url": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "ensembl_url"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ensembl url": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ensembl_url": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "ensembl website": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "ensembl site": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "ensembl web address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.589
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.division": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "division"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "division": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "separation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "dissection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detachment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "disunion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "partition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "disagreement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "schism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "disharmony": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "dissonance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "split": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.blat_mapping": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "blat_mapping"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "blat mapping": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "blat_mapping": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "mapping": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.example_chromosome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "example_chromosome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "example chromosome": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "example_chromosome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "example DNA": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "example RNA": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "example gene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.example_end": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "example_end"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "example end": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "example_end": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "end": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "example completion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "example conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "example expiration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "completion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "expiration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "example close": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "example finish": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "example last": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "example stop": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.example_start": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "example_start"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "example start": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "example_start": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "start": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "example twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "example jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "example jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "example flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "example jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.subdomain": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "subdomain"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "subdomain": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.selected_genome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "selected_genome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "selected genome": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "selected_genome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "genome": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.assembly_id__copy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "assembly_id - Copy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assembly_id - copy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assembly_id copy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "assembly_id - reproduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - duplicate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - replica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - facsimile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - print": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - photocopy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - fake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - counterfeit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - imitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - model": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.present_in_rnc_locus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "Present in rnc_locus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "present in rnc_locus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "dowry in rnc_locus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "largess in rnc_locus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "largesse in rnc_locus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        },
+			        {
+			          "benevolence in rnc_locus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.458
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.division_clean": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "Division_clean"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "division clean": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Division_clean": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "separation clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "dissection clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "detachment clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "disunion clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "partition clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "disagreement clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "schism clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "disharmony clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "dissonance clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "split clean": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "Division": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.assemblies_total_absolutely_all": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "Assemblies total (absolutely all)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assemblies total (absolutely all)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assemblies total": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.assemblies_with_filters": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "Assemblies (with filters)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assemblies (with filters)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assemblies": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.assembies_share_filtered": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "Assembies share (filtered)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assembies share (filtered)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assembies share": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rnc locus": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "rnc_locus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "rnc_locus.assembly_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "assembly_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "assembly id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assembly_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "assembly identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assembly identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assembly identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "assembly credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.locus_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "locus_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "locus name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "locus_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "locus nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "locus title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "locus label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "locus tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.public_locus_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "public_locus_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "public locus name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "public_locus_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "public locus nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "public locus title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "public locus label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "public locus tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.chromosome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "chromosome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "chromosome": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DNA": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "RNA": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "gene": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.strand": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "strand"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "strand": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "aspect": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "feature": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "thread": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "filament": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "fiber": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "string": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.locus_start": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "locus_start"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "locus start": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "locus_start": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "locus twitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus jump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus jerk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus flinch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus jolt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus shock": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "locus fright": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "locus surprise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "locus turn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "locus": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.locus_stop": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "locus_stop"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "locus stop": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "locus_stop": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "locus stopover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "locus halt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus break": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus rest": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus sojourn": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "locus stay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.member_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "member_count"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "member count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "member_count": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "member amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.length": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "Length"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "length": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "distance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "span": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "dimension": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stretch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "strip": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.assembly_id__copy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "assembly_id - Copy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "assembly_id - copy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "assembly_id copy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "assembly_id - reproduction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - duplicate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - replica": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - facsimile": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - print": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - photocopy": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - fake": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - counterfeit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - imitation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assembly_id - model": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.loci_total_absolutely_all": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "Loci total (absolutely all)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loci total (absolutely all)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loci total": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.loci_with_filters": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "Loci (with filters)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loci (with filters)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loci": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "rnc_locus.loci_share_filtered": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "rnc_locus",
+			          "ConceptualProperty": "Loci share (filtered)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "loci share (filtered)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "loci share": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "ensembl_assembly.google": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "ensembl_assembly",
+			          "ConceptualProperty": "Google"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "google": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "rnc_locus_has_loci_total_absolutely_all": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.loci_total_absolutely_all": {
+			          "Target": {
+			            "Entity": "rnc_locus.loci_total_absolutely_all"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.loci_total_absolutely_all"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_loci_total_absolutely_all"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_length": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.length": {
+			          "Target": {
+			            "Entity": "rnc_locus.length"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.length"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_lengths"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Adjectives": [
+			              {
+			                "long": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "short": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "rnc_locus.length"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "length_indicates_how_long_rnc_loci_are"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_member_count": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.member_count": {
+			          "Target": {
+			            "Entity": "rnc_locus.member_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.member_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_member_counts"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_locus_stop": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.locus_stop": {
+			          "Target": {
+			            "Entity": "rnc_locus.locus_stop"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.locus_stop"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_locus_stops"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_locus_start": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.locus_start": {
+			          "Target": {
+			            "Entity": "rnc_locus.locus_start"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.locus_start"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_locus_starts"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_strand": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.strand": {
+			          "Target": {
+			            "Entity": "rnc_locus.strand"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.strand"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_strands"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_chromosome": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.chromosome": {
+			          "Target": {
+			            "Entity": "rnc_locus.chromosome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.chromosome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_chromosomes"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_public_locus_name": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.public_locus_name": {
+			          "Target": {
+			            "Entity": "rnc_locus.public_locus_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.public_locus_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_public_locus_names"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_locus_name": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.locus_name": {
+			          "Target": {
+			            "Entity": "rnc_locus.locus_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.locus_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_locus_names"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_assembly_id": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.assembly_id": {
+			          "Target": {
+			            "Entity": "rnc_locus.assembly_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.assembly_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_assembly_ids"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_id": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.id": {
+			          "Target": {
+			            "Entity": "rnc_locus.id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_ids"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Name": {
+			              "Role": "rnc_locus.id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ids_are_names_IDs_of_rnc_loci"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_assembies_share_filtered": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.assembies_share_filtered": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.assembies_share_filtered"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.assembies_share_filtered"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_assembies_share_filtered"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_assemblies_with_filters": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.assemblies_with_filters": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.assemblies_with_filters"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.assemblies_with_filters"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_assemblies_with_filters"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_assemblies_total_absolutely_all": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.assemblies_total_absolutely_all": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.assemblies_total_absolutely_all"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.assemblies_total_absolutely_all"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_assemblies_total_absolutely_all"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_division_clean": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.division_clean": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.division_clean"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.division_clean"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_division_clean"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_present_in_rnc_locus": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.present_in_rnc_locus": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.present_in_rnc_locus"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.present_in_rnc_locus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_present_in_rnc_locus"
+			        },
+			        {
+			          "Verb": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Verbs": [
+			              {
+			                "present": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "PrepositionalPhrases": [
+			              {
+			                "Prepositions": [
+			                  {
+			                    "in": {
+			                      "State": "Generated"
+			                    }
+			                  }
+			                ],
+			                "Object": {
+			                  "Role": "ensembl_assembly.present_in_rnc_locus"
+			                }
+			              }
+			            ]
+			          },
+			          "State": "Generated",
+			          "Weight": 0.95,
+			          "ID": "ensembl_assemblies_present_in_present_in_rnc_locus"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_assembly_id__copy": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.assembly_id__copy": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.assembly_id__copy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.assembly_id__copy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_assembly_id__copies"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_selected_genome": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.selected_genome": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.selected_genome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.selected_genome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_selected_genomes"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_subdomain": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.subdomain": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.subdomain"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.subdomain"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_subdomains"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_example_start": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.example_start": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.example_start"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.example_start"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_example_starts"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_example_end": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.example_end": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.example_end"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.example_end"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_example_ends"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_example_chromosome": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.example_chromosome": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.example_chromosome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.example_chromosome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_example_chromosomes"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_blat_mapping": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.blat_mapping": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.blat_mapping"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.blat_mapping"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_blat_mapping"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_division": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.division": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.division"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.division"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_divisions"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_ensembl_url": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.ensembl_url": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.ensembl_url"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.ensembl_url"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_ensembl_urls"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_taxid": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.taxid": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.taxid"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.taxid"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_taxids"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_common_name": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.common_name": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.common_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.common_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_common_names"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_assembly_ucsc": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.assembly_ucsc": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.assembly_ucsc"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.assembly_ucsc"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_assembly_ucscs"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_gca_accession": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.gca_accession": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.gca_accession"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.gca_accession"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_gca_accessions"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_assembly_full_name": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.assembly_full_name": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.assembly_full_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.assembly_full_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_assembly_full_names"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_assembly_id": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.assembly_id": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.assembly_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.assembly_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_assembly_ids"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_loci_with_filters": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.loci_with_filters": {
+			          "Target": {
+			            "Entity": "rnc_locus.loci_with_filters"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.loci_with_filters"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_loci_with_filters"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_loci_share_filtered": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "rnc_locus.loci_share_filtered": {
+			          "Target": {
+			            "Entity": "rnc_locus.loci_share_filtered"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus.loci_share_filtered"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_loci_share_filtered"
+			        }
+			      ]
+			    },
+			    "ensembl_assembly_has_google": {
+			      "Binding": {
+			        "ConceptualEntity": "ensembl_assembly"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        },
+			        "ensembl_assembly.google": {
+			          "Target": {
+			            "Entity": "ensembl_assembly.google"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly.google"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_google"
+			        }
+			      ]
+			    },
+			    "rnc_locus_has_ensembl_assembly": {
+			      "Binding": {
+			        "ConceptualEntity": "rnc_locus"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "rnc_locus": {
+			          "Target": {
+			            "Entity": "rnc_locus"
+			          }
+			        },
+			        "ensembl_assembly": {
+			          "Target": {
+			            "Entity": "ensembl_assembly"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "rnc_locus"
+			            },
+			            "Object": {
+			              "Role": "ensembl_assembly"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "rnc_loci_have_ensembl_assemblies"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ensembl_assembly"
+			            },
+			            "Object": {
+			              "Role": "rnc_locus"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ensembl_assemblies_have_rnc_loci"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
 			}
 		contentType: json
 

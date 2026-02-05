@@ -1,6 +1,43 @@
 table ensembl_assembly
 	lineageTag: 646b5094-9c87-4992-b4f7-31548236fac0
 
+	measure 'Assemblies total (absolutely all)' =
+			
+			CALCULATE(
+			    COUNTROWS(ensembl_assembly),
+			    REMOVEFILTERS())
+		formatString: 0
+		lineageTag: ff51649a-b344-4200-b0f8-6eb430b611c2
+
+	measure 'Assemblies (with filters)' = ```
+			
+			COUNTROWS(ensembl_assembly)
+			
+			```
+		formatString: 0
+		lineageTag: 755cb91a-8857-4b81-ac9a-724a3782bf3b
+
+	measure 'Assembies share (filtered)' = DIVIDE([Assemblies (with filters)],[Assemblies total (absolutely all)])
+		formatString: 0.0%;-0.0%;0.0%
+		lineageTag: 3f4c0fa4-10f9-4018-911b-82e98640d658
+
+	measure LociNarrative_EN = ```
+			
+			VAR TotalAssemblies = [Assemblies total (absolutely all)]
+			VAR TotalAssembliesFiltered = [Assemblies (with filters)]
+			VAR TotalLoci = [Loci total (absolutely all)]
+			VAR TotalLociFiltered = [Loci share (filtered)]
+			
+			
+			RETURN
+			"Total assemblies: " & FORMAT(TotalAssembliesFiltered, "#,##0") & 
+			" (filtered from " & FORMAT(TotalAssemblies, "#,##0") & "). " &
+			"Total loci: " & FORMAT(TotalLociFiltered, "#,##0") & 
+			" (filtered from " & FORMAT(TotalLoci, "#,##0") & "). " 
+			
+			```
+		lineageTag: 80040024-aed9-4eab-886b-2bd59b2c7c2d
+
 	column assembly_id
 		dataType: string
 		lineageTag: c3d51fe0-adf8-47d4-8a61-b3d9d1793a9c
@@ -122,6 +159,48 @@ table ensembl_assembly
 		lineageTag: 4e6ba143-17ef-4793-83ac-0cac1bfd8d0a
 		summarizeBy: none
 		sourceColumn: assembly_id - Copy
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Present in rnc_locus' = ```
+			
+			IF(
+			    CONTAINS(
+			        rnc_locus,
+			        rnc_locus[assembly_id - Copy],
+			        ensembl_assembly[assembly_id - Copy]
+			    ),
+			    "Yes",
+			    "No"
+			)
+			
+			```
+		lineageTag: a64f9b70-b44b-46e3-bb6a-a7ad4146945b
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Division_clean = ```
+			
+			IF(
+			    LEFT(ensembl_assembly[division], 7) = "Ensembl",
+			    RIGHT(
+			        ensembl_assembly[division],
+			        LEN(ensembl_assembly[division]) - 7
+			    ),
+			    ensembl_assembly[division]
+			)
+			
+			```
+		lineageTag: 89d56e8a-6a29-48c4-aa9f-878318805519
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column Google = "https://www.google.com/search?q="&ensembl_assembly[ensembl_url]
+		lineageTag: fe4d7850-9bb9-4427-b30c-a610bc5388f7
+		dataCategory: WebUrl
+		summarizeBy: none
 
 		annotation SummarizationSetBy = Automatic
 

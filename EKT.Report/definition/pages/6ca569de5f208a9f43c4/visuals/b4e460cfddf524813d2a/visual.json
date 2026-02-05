@@ -1,0 +1,311 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.5.0/schema.json",
+  "name": "b4e460cfddf524813d2a",
+  "position": {
+    "x": 1223.0870667793745,
+    "y": 19.475908706677938,
+    "z": 2000,
+    "height": 505.07523245984788,
+    "width": 563.50295857988169,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "3.Связь ensembl_assembly ↔ rnc_locus",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "12pt"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Связь между таблицами описывает "
+                  },
+                  {
+                    "value": "где именно в геноме находятся RNA-локусы",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Как связаны таблицы технически"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "ensembl_assembly[assembly_id-Copy] "
+                  },
+                  {
+                    "value": "1 (one) ",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "rnc_locus[assembly_id-Copy]"
+                  },
+                  {
+                    "value": "* (many)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "(в PQ добавлен Copy с заменой значений в дубликатов (V1.0->V_1.0) из-за \t\t нечувствительности регистра)"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Биологический смысл связи"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "ensembl_assembly"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " → "
+                  },
+                  {
+                    "value": "какой геном и какая версия",
+                    "textStyle": {
+                      "fontStyle": "italic"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "rnc_locus"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": " → "
+                  },
+                  {
+                    "value": "координаты RNA на этом геноме",
+                    "textStyle": {
+                      "fontStyle": "italic"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "То есть: "
+                  },
+                  {
+                    "value": "Одна сборка генома содержит множество RNA-локусов.",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Почему это важно для отчёта"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Слайсер по assembly_full_name  фильтрует rnc_locus"
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Любая мера по локусам становится осмысленной (по виду генома, организму, версии)"
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Пример",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Assembly: ",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  },
+                  {
+                    "value": "Human – GRCh38",
+                    "textStyle": {
+                      "fontStyle": "italic",
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "В rnc_locus:",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "тысячи строк",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "каждая строка — отдельный RNA-локус",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "все они ссылаются на один assembly_id",
+                    "textStyle": {
+                      "color": "#12239e"
+                    }
+                  }
+                ],
+                "listType": "bullet",
+                "indent": 1
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
